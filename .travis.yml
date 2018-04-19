@@ -1,0 +1,16 @@
+
+language: python
+python:
+  - "3.6"
+
+# command to install dependencies
+install:
+  - pip install codecov
+  - pip install -e .[test]
+
+# command to run tests, TODO should we move this to a script?
+script:
+  - PYTHONPATH=$PWD:$PYTHONPATH pytest 
+  
+after_success:
+- codecov
