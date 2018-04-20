@@ -7,7 +7,7 @@ setup(name='timeseriesdiff',
       author='Philipp S. Lang',
       author_email='philipp.s.lang@gmail.com',
       download_url='https://github.com/plang85/timeseriesdiff.git',
-      install_requires=['numpy>=1.9.1',
+      install_requires=['numpy>=1.9',
                         'scipy>=0.14'],
       extras_require={
           'test': ['pytest',
