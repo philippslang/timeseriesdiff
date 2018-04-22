@@ -1,9 +1,0 @@
-[
-  "timeseriesdiff/__init__.py",
-  "timeseriesdiff/common.py",
-  "timeseriesdiff/interpolate.py",
-  "tests/test_common.py",
-  "tests/test_common.py::test_overlap",
-  "tests/test_interpolate.py",
-  "tests/test_interpolate.py::test_area_linear"
-]
