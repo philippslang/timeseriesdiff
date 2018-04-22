@@ -1,2 +1,3 @@
 timeseriesdiff
 matplotlib
+jupyter
